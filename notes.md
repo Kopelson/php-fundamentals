@@ -4,36 +4,76 @@
 
 PHP Hypertext Preprocessor
 
-What's Possible?
 
-Server-side scripting (creating web sites)
+## Reserved Keywords and Variables
 
-command line scripting
+    if, else, while, and, or, return, new, class, switch, break, for, foreach, static, public
 
-Example PHP program
+    require, require_once, include, include_once, extends, continue, print, echo, var
 
--simple script
+    endfor, endif, endforeach, endswitch, endwhile
 
-<?php 
-    $message = "Hello World!";
-    echo $message;
-?>
+    $_GET, $_POST, $_COOKIE, $_SERVER, $_FILES, $_ENV, $this,
 
+### Course Outline
+    General Types
+    Functions
+    Strings
+    Arrays
+    Classes and Objects
+    Operators & Control Structures
+    Databases
+    Web Programming
 
--simple web script
+## General Types
+    comments and case sensitivity
+    variables
+        -integers, booleans, decimals, constants
+    how to determine types
 
-<?php
-$message = "Hello World!";
-$title = "HTML Sample";
-?>
+### Basics
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>PHP Fundamentals - <?=$title?></title>
-    </head>
-    <body>
-        <h1><?php echo $message ?> </h1>
-    </body>
-</html>
+#### Comments:
 
+    //C++ line comment
+
+    /*
+    C-Style comment block
+    */
+
+    # Shell style comment
+
+#### Case Sensitivity - Variables
+
+$caseSensitive = "I am unique.";
+$CaseSensitive = "I'm different.";
+
+echo $caseSensitive;
+echo $CaseSensitive;
+
+*Case sensitive
+
+#### Case Sensitivity - Classes
+
+class Company
+{
+    ...
+}
+
+$c1 = new ComPanY;
+$c2 = new COMPANY;
+
+*Not case sensitive
+
+#### Case Sensitivity - Functions
+
+function companyName()
+{
+    ...
+}
+
+companyname();
+CompanyName();
+COMPANYNAME(); 
+
+*Not case sensitive
