@@ -77,3 +77,25 @@ PHP Hypertext Preprocessor
     COMPANYNAME(); 
 
     *** Not case sensitive
+
+
+## Functions
+    What is a function?
+    Creating/Calling a function
+    Passing/Default parameters
+    Returning values
+    Variable functions
+    Variable scope
+
+### What is a Function?
+    Block of code
+    Perform a specific task
+    Used throughout your program
+
+#### General Syntax of a Function
+
+function createName($parameter, $anotherParameter)
+{
+    //perform some function here...
+}
+
