@@ -45,35 +45,35 @@ PHP Hypertext Preprocessor
 
 #### Case Sensitivity - Variables
 
-$caseSensitive = "I am unique.";
-$CaseSensitive = "I'm different.";
+    $caseSensitive = "I am unique.";
+    $CaseSensitive = "I'm different.";
 
-echo $caseSensitive;
-echo $CaseSensitive;
+    echo $caseSensitive;
+    echo $CaseSensitive;
 
-*Case sensitive
+    *** Case sensitive
 
 #### Case Sensitivity - Classes
 
-class Company
-{
-    ...
-}
+    class Company
+    {
+        ...
+    }
 
-$c1 = new ComPanY;
-$c2 = new COMPANY;
+    $c1 = new ComPanY;
+    $c2 = new COMPANY;
 
-*Not case sensitive
+    *** Not case sensitive
 
 #### Case Sensitivity - Functions
 
-function companyName()
-{
-    ...
-}
+    function companyName()
+    {
+        ...
+    }
 
-companyname();
-CompanyName();
-COMPANYNAME(); 
+    companyname();
+    CompanyName();
+    COMPANYNAME(); 
 
-*Not case sensitive
+    *** Not case sensitive
