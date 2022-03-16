@@ -99,3 +99,8 @@ function createName($parameter, $anotherParameter)
     //perform some function here...
 }
 
+## Strings
+    Basic string creation
+    Print function
+    String functions
+    
