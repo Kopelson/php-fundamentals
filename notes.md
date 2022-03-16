@@ -101,6 +101,50 @@ function createName($parameter, $anotherParameter)
 
 ## Strings
     Basic string creation
+        Single quote
+        Double quote
+        here doc
+
     Print function
+        echo
+        print
+        print_r
+
     String functions
+        strtolower
+        strtoupper
+        strlen
+        strpos
+        str_replace
+        substr
+        str_split
+
+## Arrays
+    Basic array creation
+        Indexed
+        Associative
+
+    Accessing array values
+
+    Built-in functions
+        array_key_exists
+        in_array
+        array_pop
+        array_push
+        count
+        sort
+        ksort
+        asort
+        unset
     
+    Foreach loop
+
+    multi-dimensional arrays
+
+### All about arrays
+    Collection of types
+    Can contain any type
+    Each value has a related key
+    array()[]
+
+
