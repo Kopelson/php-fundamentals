@@ -159,6 +159,22 @@ function createName($parameter, $anotherParameter)
 ## Operators & Control Structures
 
     Operators
-    Control structures
-    
+        Arithmetic
+        Incrementing/Decrementing
+        Assignment
+        String
+        Comparison
+        Logical
+        Ternary
+        Spaceship
+        Null Coalesce
 
+    Control structures
+        if
+        if/else
+        elseif
+        switch statement
+        while loop 
+        for loop
+
+    Alternative syntax for control structures
