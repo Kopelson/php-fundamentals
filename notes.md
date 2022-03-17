@@ -142,9 +142,23 @@ function createName($parameter, $anotherParameter)
     multi-dimensional arrays
 
 ### All about arrays
+
     Collection of types
     Can contain any type
     Each value has a related key
     array()[]
 
+## Classes and Objects
+
+    What is a class?
+    How to create/use a class
+    How to access parts of the class
+    Inheritance and visibility
+    Adding PHP flies
+
+## Operators & Control Structures
+
+    Operators
+    Control structures
+    
 
