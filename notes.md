@@ -221,3 +221,14 @@ function createName($parameter, $anotherParameter)
 
     connecting, query, processing data
 
+## Web Programming
+    Basic HTML/CSS setup
+    Accessing form data
+        get, post
+        $_GET, $_POST
+    Form validation
+    Sessions
+        session_start()
+        $_SESSION
+        session_destroy()
+        unset()
