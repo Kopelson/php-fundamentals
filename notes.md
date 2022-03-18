@@ -178,3 +178,46 @@ function createName($parameter, $anotherParameter)
         for loop
 
     Alternative syntax for control structures
+
+## Databases
+    Supported databases
+        CUBRID
+        DB++
+        Firebird/InterBase
+        IBM DB2/Cloudscape/Apache Derby
+        MaxDB
+        MongoDB
+        mSQL
+        MS SQL
+        MySQL/MariaDB
+        Oracle OC18
+        Paradox (Experimental)
+        PostgreSQL
+        SQLite
+        SQSRV (MS SQL/SQL Azure)
+        Sybase
+        Tokyo Tyrant
+    
+        PHP Extension Community Library - PECL
+            dBase
+            filePro
+            FrontBase
+            Informix (IDS)/Universal Server
+            Ingres/EDBS/Enterprise Access Gateways
+        
+    Difference between PDO and MySQLi
+        Both have
+            Object-Orientated
+            Supports charsets
+            Multiple statements
+            server-side prepared statements
+            stored procedures
+        MySQLi
+            can use procedural calls
+            connects to mySQL, MaxDB, MariaDB
+        PDO
+            supports client-side prepared statements
+            Connects to all the supported databases in PHP
+
+    connecting, query, processing data
+
